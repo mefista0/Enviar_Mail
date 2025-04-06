@@ -1,6 +1,6 @@
 echo -e "Subject: Test\n\njajajajajajaja." | msmtp corre_a_enviar@gmail.com
 
-verificar si lo tiens configurado
+verificar si lo tienes configurado
 ls -l ~/.msmtprc
 
 y si no lo hay 
