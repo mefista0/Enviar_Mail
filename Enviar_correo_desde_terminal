@@ -1,0 +1,23 @@
+echo -e "Subject: Test\n\njajajajajajaja." | msmtp corre_a_enviar@gmail.com
+
+verificar si lo tiens configurado
+ls -l ~/.msmtprc
+
+y si no lo hay 
+
+nano ~/.msmtprc
+
+defaults
+auth on
+tls on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+account gmail
+host smtp.gmail.com
+port 587
+from tu_correo@gmail.com
+user tu_correo@gmail.com
+password xxxx  xxx xxx xxx
+logfile ~/.msmtp.log
+
+contraseña de correo generada para aplicacion la generas desde tu cuenta de email
+password xxxx  xxx xxx xxx
